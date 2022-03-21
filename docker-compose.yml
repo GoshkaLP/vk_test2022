@@ -1,0 +1,17 @@
+version: "3.8"
+
+services:
+
+  vk_app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: vk_app
+    restart: unless-stopped
+    expose:
+      - 8080
+    networks:
+      - project
+
+networks:
+  project:
