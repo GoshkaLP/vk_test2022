@@ -1,7 +1,7 @@
 ## Тестовое задание для VK 2022
 ### Демо
 https://vktest.gmrybkin.com/
-### Установка
+### Установка и запуск
 Через Docker:
 ```
 docker-compose up --build -d
